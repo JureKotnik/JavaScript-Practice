@@ -80,3 +80,18 @@ console.log("The circumference is:", circumference);
 
 ////////////////////////////////////////
 
+// Math
+
+/*
+
+let x = 3.14;
+
+x = Math.round(x); //floor rounds always down, ceil rounds up, pow goes to the power of second number, sqrt is square root, abs absolut value, max maximum, min minimum
+
+console.log(x);
+
+*/
+
+////////////////////////////////////////
+
+
