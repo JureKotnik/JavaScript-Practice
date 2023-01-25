@@ -1,6 +1,6 @@
-console.log('I like pizza');
+//console.log('I like pizza');
 
-window.alert('pizza');
+//window.alert('pizza');
 
 //Variabels
 
@@ -15,5 +15,16 @@ console.log("Enroled: " , student);
 document.getElementById("p1").innerHTML = "Hello " + firstname;
 document.getElementById("p2").innerHTML = "You are " + age + " Years old";
 document.getElementById("p3").innerHTML = "Enrolled: " + student;
+
+////////////////////////////////////////
+
+//User input
+let username;
+document.getElementById("myButton").onclick = function(){
+
+    username = document.getElementById("myText").value;
+    console.log(username);
+    document.getElementById("myLabel").innerHTML = username;
+}
 
 ////////////////////////////////////////
