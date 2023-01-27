@@ -146,3 +146,21 @@ document.getElementById("increase").onclick = function(){
 */
 ////////////////////////////////////////
 
+// random number
+/*
+    let x;
+    let y;
+    let z;
+
+document.getElementById("button").onclick = function(){
+
+    x = Math.floor(Math.random() * 10) + 1;
+    y = Math.floor(Math.random() * 100) + 1;
+    z = Math.floor(Math.random() * 1000) + 1;
+
+    document.getElementById("xLabel").innerHTML = x;
+    document.getElementById("yLabel").innerHTML = y;
+    document.getElementById("zLabel").innerHTML = z;
+}
+*/
+////////////////////////////////////////
