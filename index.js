@@ -164,3 +164,26 @@ document.getElementById("button").onclick = function(){
 }
 */
 ////////////////////////////////////////
+
+//string properties
+/*
+let userName = "Jure Kotnik";
+let phoneNumber ="123-123-456";
+
+let firstLetter = userName.charAt(0);
+let firsto = userName.indexOf("o");
+let lasto = userName.lastIndexOf("o");
+
+userName = userName.trim();
+userName = userName.toUpperCase();
+
+phoneNumber = phoneNumber.replaceAll("-","/");
+
+console.log(firstLetter);
+console.log(userName.length);
+console.log(firsto);
+console.log(lasto);
+console.log(userName);
+console.log(phoneNumber);
+*/
+////////////////////////////////////////
